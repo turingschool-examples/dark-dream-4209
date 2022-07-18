@@ -253,24 +253,11 @@
       },
       "/Users/nikkyrojas/turing/2mod/ICs/dark-dream-4209/app/models/ingredient.rb": {
         "lines": [
-
-        ]
-      },
-      "/Users/nikkyrojas/turing/2mod/ICs/dark-dream-4209/spec/models/recipe_ingredients_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          null,
           1,
           1,
           1,
           null,
-          null
-        ]
-      },
-      "/Users/nikkyrojas/turing/2mod/ICs/dark-dream-4209/app/models/recipe_ingredient.rb": {
-        "lines": [
+          1,
           1,
           null
         ]
@@ -282,17 +269,21 @@
           null
         ]
       },
-      "/Users/nikkyrojas/turing/2mod/ICs/dark-dream-4209/spec/models/recipe_spec.rb": {
+      "/Users/nikkyrojas/turing/2mod/ICs/dark-dream-4209/spec/models/recipe_ingredients_spec.rb": {
         "lines": [
           1,
           null,
           1,
-          1,
-          1,
-          1,
-          1,
           null,
+          1,
+          2,
+          2,
           null,
+          null
+        ]
+      },
+      "/Users/nikkyrojas/turing/2mod/ICs/dark-dream-4209/app/models/recipe_ingredient.rb": {
+        "lines": [
           1,
           1,
           1,
@@ -300,13 +291,38 @@
           null
         ]
       },
+      "/Users/nikkyrojas/turing/2mod/ICs/dark-dream-4209/spec/models/recipe_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          2,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
       "/Users/nikkyrojas/turing/2mod/ICs/dark-dream-4209/app/models/recipe.rb": {
         "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
           1,
           null
         ]
       }
     },
-    "timestamp": 1658180697
+    "timestamp": 1658181307
   }
 }

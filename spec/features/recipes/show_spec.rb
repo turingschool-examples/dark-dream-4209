@@ -15,7 +15,7 @@ RSpec.describe 'recipes show page (with ingredients)' do
         spagetti_ingredient_2 =RecipeIngredient.create!(recipe_id: spagetti.id, ingredient_id: noodles.id)
 
         visit "recipes/#{tortas.id}"
-        
+
         expect(page).to have_content("Carne Asada")
         expect(page).to have_content("Tomatoes")
         expect(page).to_not have_content("Spagetti Noodles")
@@ -25,10 +25,3 @@ RSpec.describe 'recipes show page (with ingredients)' do
     end
 end
 
-
-
-# User Story 2 of 4
-# As a visitor,
-# When I visit '/recipes/:id'
-# I see a list of the names of the ingredients the recipe has.
-# (e.g. "Pasta, Meat, Cheese")

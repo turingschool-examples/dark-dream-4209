@@ -245,6 +245,8 @@
           1,
           1,
           null,
+          1,
+          null,
           null,
           null
         ]
@@ -252,6 +254,37 @@
       "/Users/nikkyrojas/turing/2mod/ICs/dark-dream-4209/app/helpers/application_helper.rb": {
         "lines": [
           1,
+          null
+        ]
+      },
+      "/Users/nikkyrojas/turing/2mod/ICs/dark-dream-4209/app/models/ingredient.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/nikkyrojas/turing/2mod/ICs/dark-dream-4209/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/nikkyrojas/turing/2mod/ICs/dark-dream-4209/app/models/recipe_ingredient.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
           null
         ]
       },
@@ -267,49 +300,8 @@
           1,
           null
         ]
-      },
-      "/Users/nikkyrojas/turing/2mod/ICs/dark-dream-4209/app/models/application_record.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/nikkyrojas/turing/2mod/ICs/dark-dream-4209/app/models/ingredient.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/nikkyrojas/turing/2mod/ICs/dark-dream-4209/app/models/recipe_ingredient.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/nikkyrojas/turing/2mod/ICs/dark-dream-4209/app/controllers/recipes_controller.rb": {
-        "lines": [
-          1,
-          1,
-          0,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          null
-        ]
       }
     },
-    "timestamp": 1658184968
+    "timestamp": 1658187411
   }
 }

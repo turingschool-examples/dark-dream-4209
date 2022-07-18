@@ -1,0 +1,8 @@
+<h2> Recipe Ingredients <h2>
+
+<% @recipe.ingredients.each do |ingredient| %>
+    <div id="ingredients-<%= ingredient.id%>">
+    <p>Ingredient: <%= ingredient.name %> </p>
+    <p>Cost: <%= ingredient.cost %> </p>
+    </div>
+<%end%>

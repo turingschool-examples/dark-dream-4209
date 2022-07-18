@@ -1,0 +1,9 @@
+<h2> Recipes Index <h2>
+
+<% @recipes.each do |recipe| %>
+    <div id="recipes-<%= recipe.id%>">
+    <p>Dish: <%= recipe.name %> </p>
+    <p>Complexity: <%= recipe.complexity %> </p>
+    <p>Genre: <%= recipe.genre %> </p>
+    </div>
+<%end%>

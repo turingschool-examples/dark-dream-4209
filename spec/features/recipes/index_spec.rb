@@ -27,18 +27,3 @@ RSpec.describe 'recipes index page ' do
         end
     end
 end
-
-
-# User Story 1 of 4
-# As a visitor,
-# When I visit '/recipes',
-# I see a list of recipes with the following information:
-# -Name
-# -Complexity
-# -Genre
-# (e.g. "Name: Spaghetti, Complexity: 2, Genre: Italian")
-# User Story 2 of 4
-# As a visitor,
-# When I visit '/recipes/:id'
-# I see a list of the names of the ingredients the recipe has.
-# (e.g. "Pasta, Meat, Cheese")

@@ -23,7 +23,9 @@ RSpec.describe 'recipes show page (with ingredients)' do
 
     it 'shows total cost of ingredient for a recipe' do
         tortas = Recipe.create!(name: "Tortas", complexity: 3, genre: "Mexican")
-    
+        enchiladas = Recipe.create!(name: "Enchiladas", complexity: 4, genre: "Mexican")
+        spagetti = Recipe.create!(name: "Spagetti", complexity: 2, genre: "Italian")
+
         asada = Ingredient.create!(name: "Carne Asada", cost: 3)
         tomatoe = Ingredient.create!(name: "Tomatoes", cost: 2)
         lettuce = Ingredient.create!(name: "Letuce", cost: 1)

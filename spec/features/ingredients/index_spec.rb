@@ -20,12 +20,12 @@ RSpec.describe 'ingredients index page (all ingredients)' do
         expect(page).to have_content("Spagetti Noodles: 1")
         end
 
-        within "#recipes-#{tomatoe.id}" do
+        within "#ingredients-#{tomatoe.id}" do
             expect(page).to have_content("Tomatoes: 2")
         end
 
-        within "#recipes-#{asada.id}" do
-            expect(page).to have_content("Carne Asada : 1")
+        within "#ingredients-#{asada.id}" do
+            expect(page).to have_content("Carne Asada: 1")
         end
     end
 end

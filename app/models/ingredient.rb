@@ -8,4 +8,9 @@ class Ingredient < ApplicationRecord
     def recipe_count
         recipes.count
     end
+
+    def self.total_cost
+        sum(:cost)
+    end
+
 end

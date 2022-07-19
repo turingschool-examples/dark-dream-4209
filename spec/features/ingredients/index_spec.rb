@@ -30,18 +30,3 @@ RSpec.describe 'ingredients index page (all ingredients)' do
     end
 end
 
-
-
-# User Story 3 of 4
-# As a visitor,
-# When I visit '/ingredients'
-# I see a list of ingredients and the number of recipes each ingredient is used in.
-# (e.g. "Ground Beef: 2"
-#      "Salt: 4")
-
-
-# User Story 4 of 4
-# As a visitor,
-# When I visit '/recipes/:id'
-# I see the total cost of all of the ingredients in the recipe.
-# (e.g. "Total Cost: 22")

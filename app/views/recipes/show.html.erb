@@ -1,4 +1,5 @@
-<h2> Recipe Ingredients <h2>
+<h2> Recipe Ingredients </h2>
+
 
 <% @recipe.ingredients.each do |ingredient| %>
     <div id="ingredients-<%= ingredient.id%>">
@@ -6,3 +7,5 @@
     <p>Cost: <%= ingredient.cost %> </p>
     </div>
 <%end%>
+
+<h3> Total Cost: <%= @ingredient.total_cost %> </h3>

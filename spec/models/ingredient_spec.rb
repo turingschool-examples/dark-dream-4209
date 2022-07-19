@@ -25,5 +25,22 @@ RSpec.describe Ingredient, type: :model do
     
       expect(tomatoe.recipe_count).to eq(2)
     end
+    it ' can show total cost of ingredients' do
+      tortas = Recipe.create!(name: "Tortas", complexity: 3, genre: "Mexican")
+      
+      asada = Ingredient.create!(name: "Carne Asada", cost: 3)
+      tomatoe = Ingredient.create!(name: "Tomatoes", cost: 2)
+      lettuce = Ingredient.create!(name: "Letuce", cost: 1)
+      frijol = Ingredient.create!(name: "Frijol", cost: 1)
+      aguacate = Ingredient.create!(name: "Agucate", cost: 4)
+
+      torta_ingredient_1 = RecipeIngredient.create!(recipe_id: tortas.id, ingredient_id: asada.id)
+      torta_ingredient_2 = RecipeIngredient.create!(recipe_id: tortas.id, ingredient_id: tomatoe.id)
+      torta_ingredient_3 = RecipeIngredient.create!(recipe_id: tortas.id, ingredient_id: lettuce.id)
+      torta_ingredient_4 = RecipeIngredient.create!(recipe_id: tortas.id, ingredient_id: frijol.id)
+      torta_ingredient_5 = RecipeIngredient.create!(recipe_id: tortas.id, ingredient_id: aguacate.id)
+
+    expect(Ingredient.total_cost).to eq(11)
+    end
   end
 end
